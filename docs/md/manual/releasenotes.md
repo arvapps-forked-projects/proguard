@@ -1,4 +1,12 @@
-## Version 7.4.3
+## Version 7.5.0-beta01
+
+### Kotlin support
+
+- Add support for Kotlin 2.0. (#376)
+
+### Java support
+
+- Add support for Java 22. (#387)
 
 ### Bugfixes
 

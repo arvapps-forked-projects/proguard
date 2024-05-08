@@ -1888,7 +1888,7 @@ implements   ClassVisitor,
                 markAsUsed(kotlinPropertyMetadata.setterParameters);
                 markAsUsed(kotlinPropertyMetadata.type);
 
-                if (kotlinPropertyMetadata.flags.common.hasAnnotations &&
+                if (kotlinPropertyMetadata.flags.hasAnnotations &&
                     kotlinPropertyMetadata.syntheticMethodForAnnotations != null)
                 {
                     // Annotations are placed on a synthetic method (e.g. myProperty$annotations())
