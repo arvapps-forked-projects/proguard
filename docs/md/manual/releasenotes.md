@@ -1,9 +1,17 @@
+## Version 7.7
 
-## Version 7.6.2
+### Java support
+
+- Add support for Java 24. (#458)
 
 ### Bugfixes
 
 - Prevent `IllegalArgumentException` when strings longer than 65535 bytes are present in the application (#267).
+- Prevent `StackOverflowException` when processing a pattern match switch (#444).
+
+### Improved
+
+- Improve processing time in apps where a large number of linked methods are present.
 
 ## Version 7.6.1
 
